@@ -1,0 +1,24 @@
+﻿{
+    "name":  "terminal",
+    "version":  "1.0.0",
+    "main":  "index.js",
+    "scripts":  {
+                    "dev":  "ts-node src/server.ts",
+                    "build":  "tsc"
+                },
+    "keywords":  [
+
+                 ],
+    "author":  "",
+    "license":  "ISC",
+    "description":  "",
+    "dependencies":  {
+                         "@octokit/core":  "^7.0.6",
+                         "@octokit/webhooks":  "^14.2.0"
+                     },
+    "devDependencies":  {
+                            "@types/node":  "^25.0.3",
+                            "ts-node":  "^10.9.2",
+                            "typescript":  "^5.9.3"
+                        }
+}

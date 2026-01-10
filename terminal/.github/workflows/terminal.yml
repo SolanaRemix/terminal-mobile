@@ -1,0 +1,17 @@
+﻿name: Terminal Engine
+
+on:
+  issue_comment:
+    types: [created]
+
+jobs:
+  terminal:
+    if: startsWith(github.event.comment.body, '/terminal scan')
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Fake scan
+        run: |
+          echo 'Running fake scan...'
+          echo 'All good.'
