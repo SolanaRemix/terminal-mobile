@@ -1,0 +1,24 @@
+.indicator {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding: 2px 8px;
+  border-radius: 9999px;
+}
+
+.success {
+  background: #2ea04320;
+  color: #3fb950;
+}
+
+.failure {
+  background: #b91c1c20;
+  color: #f85149;
+}
+
+.pending {
+  background: #9e6a0320;
+  color: #e3b341;
+}

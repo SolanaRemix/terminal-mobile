@@ -1,0 +1,62 @@
+.card {
+  background: #161b22;
+  border: 1px solid #30363d;
+  border-radius: 8px;
+  padding: 16px;
+  transition: border-color 150ms ease, box-shadow 150ms ease;
+}
+
+.card[role="button"] {
+  cursor: pointer;
+}
+
+.card[role="button"]:hover {
+  border-color: #58a6ff;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.number {
+  color: #6e7681;
+  font-family: var(--font-mono, monospace);
+  font-size: 0.875rem;
+}
+
+.title {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #e6edf3;
+  margin-bottom: 8px;
+  line-height: 1.4;
+}
+
+.meta {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.branch {
+  font-size: 0.8rem;
+  color: #8b949e;
+}
+
+.branch code {
+  background: #21262d;
+  padding: 1px 6px;
+  border-radius: 4px;
+  color: #58a6ff;
+  font-family: var(--font-mono, monospace);
+}
+
+.author {
+  font-size: 0.8rem;
+  color: #6e7681;
+}

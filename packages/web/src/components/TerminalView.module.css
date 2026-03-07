@@ -1,0 +1,55 @@
+.terminal {
+  background: #0d1117;
+  border: 1px solid #30363d;
+  border-radius: 8px;
+  padding: 16px;
+  font-family: var(--font-mono, monospace);
+  font-size: 0.875rem;
+  line-height: 1.6;
+  overflow-y: auto;
+  min-height: 200px;
+  max-height: 480px;
+  color: #e6edf3;
+}
+
+.line {
+  color: #8b949e;
+  white-space: pre-wrap;
+  word-break: break-all;
+}
+
+.entry {
+  margin-bottom: 12px;
+  padding: 8px;
+  border-left: 3px solid #30363d;
+  border-radius: 0 4px 4px 0;
+}
+
+.entry.success {
+  border-left-color: #39d353;
+}
+
+.entry.error {
+  border-left-color: #f85149;
+}
+
+.prompt {
+  color: #39d353;
+  font-weight: 600;
+}
+
+.args {
+  color: #58a6ff;
+}
+
+.output {
+  margin-top: 4px;
+  color: #e6edf3;
+  white-space: pre-wrap;
+}
+
+.timestamp {
+  margin-top: 4px;
+  font-size: 0.75rem;
+  color: #6e7681;
+}

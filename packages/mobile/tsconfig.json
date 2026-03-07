@@ -1,0 +1,10 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "paths": {
+      "@terminal-mobile/shared": ["../shared/src/index.ts"]
+    }
+  },
+  "include": ["src", "app.json"]
+}

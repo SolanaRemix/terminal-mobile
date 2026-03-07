@@ -1,4 +1,4 @@
 name: "Terminal Mobile"
 version: "1.0.0"
 description: "Terminal Mobile GitHub App integration"
-entrypoint: "npm start"
+entrypoint: "npm run dev --workspace=packages/server"

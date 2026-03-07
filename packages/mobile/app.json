@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "CyberAi Terminal",
+    "slug": "cyberai-terminal",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#0d1117"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#0d1117"
+      },
+      "package": "com.cyberai.terminal"
+    },
+    "ios": {
+      "bundleIdentifier": "com.cyberai.terminal",
+      "supportsTablet": true
+    },
+    "plugins": [
+      "expo-router",
+      "expo-secure-store"
+    ],
+    "scheme": "cyberai-terminal",
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
