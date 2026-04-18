@@ -1,0 +1,124 @@
+.wrapper {
+  position: relative;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: #161b22;
+  border: 1px solid #30363d;
+  border-radius: 6px;
+  padding: 8px 12px;
+}
+
+.form:focus-within {
+  border-color: #58a6ff;
+}
+
+.prefix {
+  color: #39d353;
+  font-family: var(--font-mono, monospace);
+  font-weight: 700;
+  user-select: none;
+}
+
+.input {
+  flex: 1;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #e6edf3;
+  font-family: var(--font-mono, monospace);
+  font-size: 0.9rem;
+}
+
+.input::placeholder {
+  color: #6e7681;
+}
+
+.submit {
+  background: #1f6feb;
+  color: #e6edf3;
+  border: none;
+  border-radius: 4px;
+  padding: 4px 12px;
+  font-size: 0.875rem;
+  font-weight: 600;
+  transition: background 150ms ease;
+}
+
+.submit:hover:not(:disabled) {
+  background: #58a6ff;
+  color: #0d1117;
+}
+
+.submit:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.suggestions {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: calc(100% + 4px);
+  background: #161b22;
+  border: 1px solid #30363d;
+  border-radius: 6px;
+  list-style: none;
+  z-index: 100;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+}
+
+.suggestion {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 8px 12px;
+  cursor: pointer;
+  font-family: var(--font-mono, monospace);
+  font-size: 0.875rem;
+  transition: background 150ms ease;
+}
+
+.suggestion:hover {
+  background: #21262d;
+}
+
+.suggestCmd {
+  color: #39d353;
+  min-width: 180px;
+}
+
+.suggestDesc {
+  color: #8b949e;
+  flex: 1;
+  font-family: var(--font-sans, sans-serif);
+  font-size: 0.8rem;
+}
+
+.risk {
+  font-size: 0.7rem;
+  font-family: var(--font-sans, sans-serif);
+  padding: 2px 6px;
+  border-radius: 9999px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.risk-safe {
+  background: #2ea04330;
+  color: #39d353;
+}
+
+.risk-moderate {
+  background: #9e6a0330;
+  color: #e3b341;
+}
+
+.risk-dangerous {
+  background: #b91c1c30;
+  color: #f85149;
+}

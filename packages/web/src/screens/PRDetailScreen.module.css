@@ -1,0 +1,162 @@
+.page {
+  min-height: 100vh;
+  background: #0d1117;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 14px 24px;
+  border-bottom: 1px solid #30363d;
+  background: #161b22;
+  flex-wrap: wrap;
+}
+
+.back {
+  background: transparent;
+  color: #58a6ff;
+  border: none;
+  font-size: 0.9rem;
+  padding: 0;
+}
+
+.back:hover {
+  text-decoration: underline;
+}
+
+.prNum {
+  font-family: var(--font-mono, monospace);
+  color: #6e7681;
+  font-size: 0.95rem;
+}
+
+.main {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 32px 24px;
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #e6edf3;
+  margin-bottom: 12px;
+}
+
+.meta {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.branch {
+  background: #21262d;
+  color: #58a6ff;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-family: var(--font-mono, monospace);
+  font-size: 0.85rem;
+}
+
+.arrow {
+  color: #6e7681;
+}
+
+.author {
+  color: #6e7681;
+  font-size: 0.85rem;
+}
+
+.body {
+  background: #161b22;
+  border: 1px solid #30363d;
+  border-radius: 8px;
+  padding: 16px;
+  color: #8b949e;
+  font-size: 0.9rem;
+  line-height: 1.6;
+  margin-bottom: 32px;
+  white-space: pre-wrap;
+}
+
+.commentSection {
+  margin-bottom: 32px;
+}
+
+.sectionTitle {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #8b949e;
+  margin-bottom: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: 0.75rem;
+}
+
+.comments {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.comment {
+  background: #161b22;
+  border: 1px solid #30363d;
+  border-radius: 8px;
+  padding: 12px 16px;
+}
+
+.comment.terminalComment {
+  border-color: #39d35340;
+  background: #39d35308;
+}
+
+.commentHeader {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 6px;
+  font-size: 0.85rem;
+}
+
+.commentHeader strong {
+  color: #e6edf3;
+}
+
+.commentTime {
+  color: #6e7681;
+  font-size: 0.8rem;
+}
+
+.terminalBadge {
+  font-size: 0.7rem;
+  color: #39d353;
+  background: #39d35320;
+  border: 1px solid #39d35350;
+  padding: 1px 6px;
+  border-radius: 9999px;
+  font-family: var(--font-mono, monospace);
+}
+
+.commentBody {
+  color: #8b949e;
+  font-size: 0.9rem;
+  white-space: pre-wrap;
+  line-height: 1.5;
+}
+
+.terminalSection {
+  margin-bottom: 40px;
+}
+
+.inputWrapper {
+  margin-top: 12px;
+}
+
+.error {
+  color: #f85149;
+  font-size: 0.9rem;
+}

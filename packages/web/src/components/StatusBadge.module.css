@@ -1,0 +1,27 @@
+.badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 2px 10px;
+  border-radius: 9999px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.open {
+  background: #2ea04330;
+  color: #3fb950;
+  border: 1px solid #2ea043;
+}
+
+.closed {
+  background: #b91c1c20;
+  color: #f85149;
+  border: 1px solid #b91c1c;
+}
+
+.merged {
+  background: #6e40c920;
+  color: #a371f7;
+  border: 1px solid #6e40c9;
+}

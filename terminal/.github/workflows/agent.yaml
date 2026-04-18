@@ -1,3 +1,0 @@
-name: terminal
-description: Local terminal agent
-entrypoint: http://localhost:3000
